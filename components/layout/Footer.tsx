@@ -9,7 +9,7 @@ const footerLinks = [
   { label: 'Gallery', href: '/gallery' },
 ]
 
-const tickerItems = ['WARNING', 'NO SWIMMING', 'SHARK SIGHTED', 'WARNING', 'NO SWIMMING', 'SHARK SIGHTED', 'WARNING', 'NO SWIMMING', 'SHARK SIGHTED', 'WARNING', 'NO SWIMMING', 'SHARK SIGHTED']
+const tickerItems = ['BEGINNER FRIENDLY', 'CERTIFIED INSTRUCTORS', '5000+ STUDENTS', 'EST. 2021', 'BEGINNER FRIENDLY', 'CERTIFIED INSTRUCTORS', '5000+ STUDENTS', 'EST. 2021']
 
 export default function Footer() {
   return (

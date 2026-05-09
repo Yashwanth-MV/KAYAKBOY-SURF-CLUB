@@ -134,7 +134,7 @@ export default function About() {
               <div>
                 <h3 className="text-white font-semibold mb-3 text-base">Our Philosophy</h3>
                 <p className="text-white/60 text-sm leading-relaxed font-light">
-                  We are a world-renowned surf school committed to teaching the skill, spirit, and lifestyle of surfing. With expert instructors, iconic surf spots, and a deep love for the ocean, we offer transformative experiences for surfers at every stage of their journey.
+                  We are India's premier surf school committed to teaching the skill, spirit, and lifestyle of surfing. With expert instructors, iconic surf spots, and a deep love for the ocean, we offer transformative experiences for surfers at every stage of their journey.
                 </p>
               </div>
               <div>

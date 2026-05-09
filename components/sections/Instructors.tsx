@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-
+import Link from 'next/link'
 const instructors = [
   {
     name: 'Kai Lenny',
@@ -78,7 +78,7 @@ export default function Instructors() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-          {instructors.map((instructor, i) => (
+          {instructors.slice(0, 3).map((instructor, i) => (
             <motion.div
               key={instructor.name}
               initial={{ opacity: 0, y: 40 }}
@@ -108,6 +108,18 @@ export default function Instructors() {
             </motion.div>
           ))}
         </div>
+
+        {/* View All CTA */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16 text-center"
+        >
+          <Link href="/about" className="inline-block bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold px-12 py-5 rounded-full text-xs uppercase tracking-[0.2em] hover:bg-white hover:text-[#050F18] transition-all duration-300 shadow-2xl">
+            View All Instructors
+          </Link>
+        </motion.div>
       </div>
     </section>
   )

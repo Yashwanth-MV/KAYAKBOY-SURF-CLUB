@@ -43,7 +43,7 @@ export default function Courses() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-          {courses.slice(0, 8).map((course, i) => (
+          {courses.slice(0, 4).map((course, i) => (
             <motion.div
               key={course.slug}
               initial={{ opacity: 0, y: 40 }}

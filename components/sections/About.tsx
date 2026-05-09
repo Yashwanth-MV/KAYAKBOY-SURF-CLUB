@@ -106,8 +106,8 @@ export default function About() {
                   <span className="text-xl">🌊</span>
                 </div>
                 <div>
-                  <div className="text-white font-semibold text-sm">Est. 2018</div>
-                  <div className="text-white/50 text-xs">World Renowned</div>
+                  <div className="text-white font-semibold text-sm">Est. 2021</div>
+                  <div className="text-white/50 text-xs">India's premier surf school</div>
                 </div>
               </div>
             </motion.div>

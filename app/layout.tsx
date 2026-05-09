@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from 'next'
 import '../styles/globals.css'
 import SmoothScroll from '@/components/ui/SmoothScroll'
@@ -18,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <SmoothScroll>
           {children}
-        </SmoothScroll>
+        </SmoothScroll><Analytics />
       </body>
     </html>
   )

@@ -154,9 +154,9 @@ export default function AboutPage() {
                 ))}
               </ul>
 
-              <button className="bg-white text-[#050F18] font-bold px-10 py-5 rounded-full hover:scale-105 transition-transform text-xs uppercase tracking-widest shadow-xl">
+              <Link href="/courses" className="inline-block bg-white text-[#050F18] font-bold px-10 py-5 rounded-full hover:scale-105 transition-transform text-xs uppercase tracking-widest shadow-xl">
                 View Courses
-              </button>
+              </Link>
             </motion.div>
           </div>
         </div>

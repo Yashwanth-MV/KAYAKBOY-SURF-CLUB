@@ -40,7 +40,7 @@ export default function VolunteerCTA() {
               
               {/* Floating Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10">
-                <div className="text-white font-bold mb-1" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Open for Season 2024</div>
+                <div className="text-white font-bold mb-1" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Open for Season 2026</div>
                 <div className="text-white/60 text-xs uppercase tracking-widest">Apply before the slots fill up</div>
               </div>
             </div>

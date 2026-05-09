@@ -5,7 +5,7 @@ import SmoothScroll from '@/components/ui/SmoothScroll'
 
 export const metadata: Metadata = {
   title: 'Kayakboy Surf Club — World-Class Surf School',
-  description: 'Free Framer template built for surfing schools, camps, and instructors. Fully responsive, ocean-inspired design.',
+  description: 'Kayakboy Surf Club is the premier surfing school in Mulki, India. Join us for an unforgettable ocean adventure.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
